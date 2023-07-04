@@ -2,8 +2,11 @@ Step 1 — Installing the Apache Web Server
 In order to display web pages to our site visitors, we are going to employ Apache, a popular open source web server that can be configured to serve PHP pages. We’ll use the dnf package manager, which is the new default package manager on CentOS 8, to install this software.
 
 Install the httpd package with:
-
+```
 sudo dnf install httpd
+```
+
+
 When prompted, enter y to confirm that you want to install Apache.
 
 After the installation is finished, run the following command to enable and start the server:
